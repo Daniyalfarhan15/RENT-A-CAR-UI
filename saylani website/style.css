@@ -1,0 +1,81 @@
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* navbar css  */
+.nav-wrapper {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 9;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.nav-container .nav-items ul{
+    display: flex;
+    gap: 25px;
+    font-size: 1.1rem;
+}
+
+.nav-container .nav-items ul li a:hover{
+    text-decoration: green underline 2px; 
+
+    
+    
+}
+
+.logo {
+    height: 3.5rem;
+}
+.auth-container button{
+    
+    color: #ffffff;
+    height: 40px;
+    border-radius: 15%;
+    
+
+    
+}
+.auth-container button :hover{
+    height:45px;
+}
+.Donate{
+    background-color:#0d6db7;
+}
+.Sponser{
+    background-color: #8dc63f;
+}
+@media only screen and (max-width: 600px) {
+    nav .nav-wrapper {
+      
+    }
+  }
+    
+
+  .main img{
+    justify-content: flex-end;
+  }
+   span
+
+
